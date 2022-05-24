@@ -1,0 +1,51 @@
+.discount-event-con {
+	color: var(--Light_text);
+	background-color: var(--accent-main);
+}
+
+.discount-event-con .container {
+	position: relative;
+}
+
+.discount-content h3 {
+	font-size: var(--font-size-42);
+	line-height: var(--line-height-49);
+	letter-spacing: 0.15em;
+}
+
+.discount-content h2 {
+	font-weight: var(--font-black);
+	font-size: var(--font-size-68);
+	line-height: var(--line-height-80);
+}
+
+.discount-content .btn {
+	background-color: var(--Light_text);
+	border-radius: 15px;
+	color: var(--Dart_text);
+	font-size: var(--font-size-25);
+	line-height: var(--line-height-29);
+	font-weight: var(--font-bold);
+}
+
+.discount-content .btn:hover {
+	background-color: var(--Dart_text);
+	color: var(--Light_text);
+}
+
+.discount-event-con img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
+}
+
+@media (min-width: 1200px) {
+	.discount-event-con {
+		height: 21em;
+	}
+
+	.discount-event-con img {
+		display: block;
+	}
+}

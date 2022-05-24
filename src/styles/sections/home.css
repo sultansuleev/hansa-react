@@ -1,0 +1,12 @@
+/* Home section  */
+@import './modules/adbanner.module.css';
+@import './modules/adcatalogue.module.css';
+@import './modules/discount.module.css';
+@import './modules/recomendation.module.css';
+@import './modules/about.module.css';
+
+.home {
+	color: var(--white);
+	height: 100%;
+}
+

@@ -1,0 +1,136 @@
+.recommendation-con {
+	background-color: var(--Light_BG);
+}
+
+.recommendation {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 1em;
+	grid-column-gap: .5em;
+}
+
+@media (min-width: 544px) {
+	.recommendation {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (min-width: 992px) {
+	.recommendation {
+			grid-template-columns: repeat(3, 1fr);
+		}
+}
+
+@media (min-width: 1200px) {
+	.recommendation {
+			grid-template-columns: repeat(4, 1fr);
+		}
+}
+
+.recommendation-item {
+	background-color: var(--Light_text);
+	position: relative;
+	border-radius: 20px;
+	border: 1px solid var(--Grid_border);
+	transition: .2s ease;
+}
+
+.recommendation-content {
+
+	position: relative;
+
+}
+
+.rec-top-content h3 {
+	font-size: var(--font-size-28);
+	line-height: var(--line-height-26);
+}
+
+.rec-top-content a {
+	color: var(--accent-main);
+	font-size: var(--font-size-14);
+	line-height: var(--line-height-13);
+}
+
+.recommendation-content .event-status {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.event-status .disc {
+	border-radius: 20px;
+	background-color: var(--accent-main);
+	width: 32px;
+	height: 32px;
+
+}
+
+.event-status .disc img {
+	filter: invert(100%) sepia(92%) saturate(3%) hue-rotate(242deg) brightness(107%) contrast(100%);
+}
+
+.event-status .credit {
+	border-radius: 20px;
+	background-color: var(--accent-main);
+	color: var(--Light_text);
+	width: 72px;
+	height: 32px;
+}
+
+.event-status .credit p {
+	color: var(--Light_text);
+
+}
+
+.recommendation-content p,
+.recommendation-content .recom-name {
+	color: var(--Dart_text);
+	font-size: var(--font-size-16);
+	line-height: var(--line-height-15);
+}
+
+.recommendation-content .util-data {
+	color: var(--Grey_font);
+	font-size: var(--font-size-12);
+	line-height: var(--line-height-15);
+	width: 100%;
+}
+
+.recommendation-content .recom-name {
+	cursor: pointer;
+	min-height: 45px;
+}
+
+.recommendation-content .cost {
+
+	color: var(--accent-main);
+}
+
+.recommendation-content .btn {
+	background-color: transparent;
+	border: 1px solid var(--accent-main);
+	border-radius: 38px;
+	color: var(--accent-main);
+	font-size: var(--font-size-15);
+	line-height: var(--line-height-14);
+}
+
+.recommendation-content .btn:hover {
+	background-color: var(--accent-main);
+	color: var(--Light_text);
+}
+
+.recommendation-item:hover {
+	box-shadow: 0px -31px 20px -10px rgba(32, 41, 54, 0.05), 0px 31px 20px -10px rgba(32, 41, 54, 0.13);
+}
+
+.recommendation-content .btn:hover img {
+	filter: invert(100%) sepia(92%) saturate(3%) hue-rotate(242deg) brightness(107%) contrast(100%);
+}
+
+.recommendation-content .cost span {
+	color: var(--Grey_font);
+	text-decoration: line-through;
+}

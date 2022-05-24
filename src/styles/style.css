@@ -1,0 +1,30 @@
+@import './fonts.css';
+@import './variables.css';
+
+* {
+	word-wrap: normal;
+	outline: 0 !important;
+	outline-offset: 0 !important;
+	-webkit-appearance: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--userfont);
+	font-weight: var(--font-regular);
+}
+
+/* Settings */
+
+*:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}

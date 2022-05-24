@@ -1,0 +1,43 @@
+:root {
+
+	--accent-main: #d50032;
+	--Light_BG: rgba(239, 240, 245, 1);
+	--Dark_BG: rgba(35, 40, 48, 1);
+	--Dart_text: rgba(51, 61, 77, 1);
+	--Solid_black_text: rgba(0, 0, 0, 1);
+	--Light_text: rgba(255, 255, 255, 1);
+	--Grey_font: rgba(143, 145, 149, 1);
+	--Grey_selector_color: #C1C4CA;
+	--Grid_BG:rgba(243, 244, 248, 1);
+	--Grid_border: rgba(200, 201, 204, 1);
+
+	--userfont: 'GothamPro', sans-serif;
+
+	--font-regular: 400;
+	--font-bold: 600;
+	--font-black: 900;
+
+	--font-size-12: 12px;
+	--font-size-14: 14px;
+	--font-size-15: 15px;
+	--font-size-16: 16px;
+	--font-size-20: 20px;
+	--font-size-25: 25px;
+	--font-size-28: 28px;
+	--font-size-42: 42px;
+	--font-size-45: 45px;
+	--font-size-68: 68px;
+
+	--line-height-11: 11.48px;
+	--line-height-13: 13.4px;
+	--line-height-14: 14.36px;
+	--line-height-15: 15.31px;
+	--line-height-19: 19.14px;
+	--line-height-20: 20px;
+	--line-height-26: 26.8px;
+	--line-height-29: 29.42px;
+	--line-height-49: 49.43px;
+	--line-height-52: 52.96px;
+	--line-height-80: 80.04px;
+
+}

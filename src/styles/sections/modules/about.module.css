@@ -1,0 +1,35 @@
+
+
+@media (max-width: 992px) {
+.about-con img {
+	width: 100%;
+}
+}
+
+.about-content {
+	color: var(--Dart_text)
+}
+
+.about-content h2 {
+	font-size: var(--font-size-28);
+	line-height: var(--line-height-38);
+}
+
+.about-content p {
+	font-size: var(--font-size-16);
+	line-height: var(--line-height-20);
+}
+
+.about-content .btn {
+	border: 1px solid var(--accent-main);
+	background-color: transparent;
+	border-radius: 38px;
+	color: var(--accent-main);
+	font-size: var(--font-size-15);
+	line-height: var(--line-height-14);
+}
+
+.about-content .btn:hover {
+	background-color: var(--accent-main);
+	color: var(--Light_text);
+}

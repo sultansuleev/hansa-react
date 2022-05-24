@@ -1,0 +1,22 @@
+/* GothamPro Regular */
+@font-face {
+	font-family: 'GothamPro';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		url('../assets/fonts/GothamPro-Medium.woff2') format('woff2'),
+}
+/* GothamPro Bold */
+@font-face {
+	font-family: 'GothamPro-Black';
+	font-style: normal;
+	font-weight: 700;
+	src: local(''), url('../assets/fonts/GothamPro-Bold.woff2') format('woff2');
+}
+/* GothamPro Black */
+@font-face {
+	font-family: 'GothamPro-Black';
+	font-style: normal;
+	font-weight: 900;
+	src: local(''), url('../assets/fonts/GothamPro-Black.woff2') format('woff2');
+}

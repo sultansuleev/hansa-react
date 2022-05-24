@@ -1,0 +1,40 @@
+/* Footer */
+
+footer {
+	position: relative;
+	z-index: 12;
+	background-color: var(--Dark_BG);
+}
+
+.f-con {
+	min-height: 132px;
+	color: var(--Light_text);
+	font-size: var(--font-size-16);
+	line-height: var(--line-height-15);
+}
+
+.f-con a {
+	transition: .2s ease;
+}
+
+.f-con a:hover { 
+	color: var(--Grey_font);
+}
+
+.f-con a:hover img {
+	filter: invert(61%) sepia(2%) saturate(548%) hue-rotate(182deg) brightness(94%) contrast(85%);
+}
+
+.company-info {
+	font-size: var(--font-size-14);
+	line-height: var(--line-height-21);
+}
+
+.f-con-pre {
+	min-height: 100px !important;
+
+}
+
+.f-mr {
+	margin-right: 15px;
+}
